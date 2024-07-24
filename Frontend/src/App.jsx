@@ -1,11 +1,13 @@
-
+import {Navbar} from "./Components/Navbar"
+import {Home} from "./Pages/Home"
 
 function App() {
   
 
   return (
     <>
-      hi there
+      <Navbar></Navbar>
+      <Home></Home>
     </>
   )
 }
